@@ -14,6 +14,6 @@ no_callback = fb.child("colors").listener()
 custom_callback = fb.child("shapes").listener(p)
 
 # Start and stop the stream using the following
-custom_callack.start()
+custom_callback.start()
 raw_input("ENTER to stop...")
 custom_callback.stop()
